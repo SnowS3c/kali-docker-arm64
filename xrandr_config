@@ -1,0 +1,5 @@
+if [[ "$USER" == "xuser" && "$(xrandr | grep current | cut -d ' ' -f8-10)" != "1680 x 920," ]]; then
+    xrandr --newmode "1680x920_60.00"  127.25  1680 1776 1952 2224  920 923 933 955 -hsync +vsync
+    xrandr --addmode VNC-0 1680x920_60.00
+    xrandr --output VNC-0 --mode 1680x920_60.00
+fi
