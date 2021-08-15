@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "\nhttps://github.com/xansx/kali-docker-arm64\n\nCustom Kali Linux OS arm64 distro accessible via VNC, RDP or web"
+echo -e "\nhttps://github.com/SnowS3c/kali-docker-arm64\n\nCustom Kali Linux OS arm64 distro accessible via VNC, RDP or web"
 x1=$(hostname -I | cut -d' ' -f1)
 #x2=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9!@#%^&*_+-=' | fold -w 10 | head -n 1)
 #x3=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9!@#%^&*_+-=' | fold -w 10 | head -n 1)
